@@ -1,0 +1,111 @@
+/**
+ * @file
+ * Visual styles for Bartik's main-content component.
+ */
+
+.main-content .section {
+  padding: 0 15px;
+}
+.main-content h2 {
+  margin-bottom: 2px;
+  font-size: 1.429em;
+  line-height: 1.4;
+}
+
+@media all and (min-width: 851px) {
+  .main-content {
+    float: left; /* LTR */
+    position: relative;
+  }
+  [dir="rtl"] .main-content {
+    float: right;
+  }
+  .layout-two-sidebars .main-content {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+  }
+  .layout-one-sidebar .main-content {
+    width: 75%;
+  }
+  .layout-no-sidebars .main-content {
+    width: 100%;
+  }
+  .layout-sidebar-first .main-content {
+    margin-left: 25%; /* LTR */
+    margin-right: 0; /* LTR */
+  }
+  [dir="rtl"] .layout-sidebar-first .main-content {
+    margin-left: 0;
+    margin-right: 25%;
+  }
+  .layout-sidebar-second .main-content {
+    margin-right: 25%; /* LTR */
+    margin-left: 0; /* LTR */
+  }
+  [dir="rtl"] .layout-sidebar-second .main-content {
+    margin-right: 0;
+    margin-left: 25%;
+  }
+}
+
+
+
+
+
+
+.main-content .region {
+  padding: 0 20px;
+}
+@media all and (min-width: 560px) {
+  .main-content .region {
+    float: left; /* LTR */
+    position: relative;
+    box-sizing: border-box;
+    padding: 20px 15px 30px;
+    width: 33%;
+  }
+  [dir="rtl"] .main-content .region {
+    float: right;
+  }
+}
+@media all and (min-width: 851px) {
+  .main-content .region {
+    padding: 0 20px;
+  }
+}
+.main-content h2 {
+  color: #000;
+  font-size: 1.4em;
+  margin-bottom: 0.6em;
+  text-shadow: 0 1px 0 #fff;
+  text-align: center;
+  line-height: 1em;
+}
+.main-content .block {
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #dfdfdf;
+  line-height: 1.3em;
+}
+.main-content .block:last-child {
+  border-bottom: none;
+}
+.main-content ul,
+.main-content ol {
+  padding-left: 0;
+}
+.main-content ul li,
+.main-content ol li {
+  list-style: none;
+}
+.main-content input:not(.form-submit) {
+  width: 185px;
+}
+.region-main-content-third .feed-icon {
+  float: right;
+}
+.region-main-content-second .block-system-powered-by-block {
+  text-align: center;
+}
+

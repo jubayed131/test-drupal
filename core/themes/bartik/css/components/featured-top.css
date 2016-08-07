@@ -1,0 +1,89 @@
+/**
+ * @file
+ * Visual styles for Bartik's featured top.
+ */
+/*
+.featured-top {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: normal;
+  line-height: 1.4;
+  padding: 20px 10px 45px;
+  margin: 0;
+  background: #f0f0f0;
+  background: rgba(30, 50, 10, 0.08);
+  border-bottom: 1px solid #e7e7e7;
+  text-shadow: 1px 1px #fff;
+}
+.featured-top h2 {
+  font-size: 1.2em;
+  line-height: 1;
+}
+.featured-top p {
+  margin: 0;
+  padding: 0;
+}
+*/
+/**
+* @file
+* Visual styles for Bartik's featured bottom component.
+*/
+
+.featured-top {
+  background: rgba(30, 50, 10, 0.08);
+  border-top: 1px solid #e7e7e7;
+}
+.featured-top .region {
+  padding: 0 20px;
+}
+@media all and (min-width: 560px) {
+  .featured-top .region {
+    float: left; /* LTR */
+    position: relative;
+    box-sizing: border-box;
+    padding: 20px 15px 30px;
+    width: 33%;
+  }
+  [dir="rtl"] .featured-top .region {
+    float: right;
+  }
+}
+@media all and (min-width: 851px) {
+  .featured-top .region {
+    padding: 0 20px;
+  }
+}
+.featured-top h2 {
+  color: #000;
+  font-size: 1.4em;
+  margin-bottom: 0.6em;
+  text-shadow: 0 1px 0 #fff;
+  text-align: center;
+  line-height: 1em;
+}
+.featured-top .block {
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #dfdfdf;
+  line-height: 1.3em;
+}
+.featured-top .block:last-child {
+  border-bottom: none;
+}
+.featured-top ul,
+.featured-top ol {
+  padding-left: 0;
+}
+.featured-top ul li,
+.featured-top ol li {
+  list-style: none;
+}
+.featured-top input:not(.form-submit) {
+  width: 185px;
+}
+.region-featured-top-third .feed-icon {
+  float: right;
+}
+.region-featured-top-second .block-system-powered-by-block {
+  text-align: center;
+}

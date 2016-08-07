@@ -1,0 +1,5 @@
+services:
+  wunderground_weather.request.data:
+    class: Drupal\wunderground_weather\RequestData
+    arguments:
+    - '@http_client'

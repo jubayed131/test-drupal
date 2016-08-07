@@ -1,0 +1,44 @@
+core: 8.x
+type: theme
+base theme: bootstrap
+
+name: 'Bootstrap Sub-Theme (CDN)'
+description: 'The is bootstrap subtheme'
+package: 'Bootstrap'
+
+regions:
+  navigation: 'Navigation'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  header: 'Top Bar'
+  advertise: 'Advertisement'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'
+  newsrow_one_top_first: 'Newsrow one top first'
+  newsrow_one_top_second: 'Newsrow one top second'
+  newsrow_one_top_third: 'Newsrow one top third'
+  newsrow_one_fourth: 'Newsrow one fourth'
+  advertise_second: 'Advertisement Second'
+  newsrow_two_first: 'Newsrow two first'
+  newsrow_two_second_top: 'Newsrow two second top'
+  newsrow_two_second_bottom: 'Newsrow two second bottom'
+  newsrow_two_third: 'Newsrow two third'
+  newsrow_three_first: 'Newsrow three first'
+  newsrow_three_second: 'Newsrow three second'
+  newsrow_three_third: 'Newsrow three third'
+  newsrow_four_first: 'Newsrow four first'
+  newsrow_four_second: 'Newsrow four second'
+  newsrow_five_first: 'Newsrow five first'
+  newsrow_five_second: 'Newsrow five second'
+  footer: 'Footer'
+  footer_first: 'footer first'
+  footer_second: 'footer second'
+  footer_third: 'footer third'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  
+
+libraries:
+  - 'bootstrap_subtheme/global-styling'
